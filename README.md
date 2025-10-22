@@ -22,6 +22,7 @@ positional arguments:
 optional arguments:
   -h, --help     show this help message and exit
   -d, --one-dir  One directory mode, extracts the pyz to the same directory
+  --h, --help    show all message and exit.
 ```
 
 Pass the exe filename as an argument or drag & drop the pyinstaller exe file over pyinstxtractor.ng icon on Windows.
@@ -30,18 +31,6 @@ $ ./pyinstxtractor-ng <filename>
 X:\> pyinstxtractor-ng <filename>
 ```
 
-The `--one-dir` mode extracts the pyz in the same directory as the executable. This is useful if you want to run the extracted files straight-away.
-
-```
-X:\> pyinstxtractor-ng --one-dir main.exe
-X:\> cd main.exe_extracted
-X:\main.exe_extracted\> python main.py
-```
-
 ## See Also
 
 - [pyinstxtractor-web](https://pyinstxtractor-web.netlify.app/): pyinstxtractor running in the web browser, powered by Go & GopherJS.
-
-## License
-
-GNU General Public License v3.0
